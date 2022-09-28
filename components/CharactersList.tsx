@@ -1,27 +1,27 @@
-import React, {FC} from "react";
+import React, { FC } from "react";
 import { CharacterCard } from "./CharacterCard";
-import {  Grid } from "@mui/material";
+import { Grid } from "@mui/material";
 import { NotResults } from "./NotResults";
-import {ICharacter} from "../types/Character";
+import { ICharacter } from "../types/Character";
 
 interface ICharacterList {
-    data:ICharacter[]
+  data: ICharacter[];
 }
 
-export const CharactersList:FC<ICharacterList> = ({ data }) => {
-    if (data?.length === 0) {
-        return <NotResults />;
-    }
+export const CharactersList: FC<ICharacterList> = ({ data }) => {
+  if (data?.length === 0) {
+    return <NotResults />;
+  }
 
-    return (
-        <Grid
-            container
-    justifyContent="flex-start"
-    sx={{ width: "1500px", margin: "0 auto", paddingTop: 5 }}
->
-    {data?.map((character) => (
+  return (
+    <Grid
+      container
+      justifyContent="flex-start"
+      sx={{ width: "1500px", margin: "0 auto", paddingTop: 5 }}
+    >
+      {data?.map((character) => (
         <CharacterCard key={character.id} character={character} />
-    ))}
+      ))}
     </Grid>
-);
+  );
 };

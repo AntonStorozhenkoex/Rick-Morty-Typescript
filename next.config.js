@@ -4,13 +4,13 @@ const nextConfig = {
   swcMinify: true,
   images: {
     domains: ["rickandmortyapi.com"],
-    loader:'akamai',
-    path:''
+    loader: "akamai",
+    path: "",
   },
   compiler: {
     reactRemoveProperties: true,
   },
-  assetPrefix:'./',
+  assetPrefix: "./",
 };
 
-module.exports = nextConfig
+module.exports = nextConfig;

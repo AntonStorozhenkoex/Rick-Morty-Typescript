@@ -1,6 +1,6 @@
-import React, {FC} from "react";
+import React, { FC } from "react";
 import logo from "../public/logo.png";
-import {Grid, styled} from "@mui/material";
+import { Grid, styled } from "@mui/material";
 import Image from "next/image";
 
 const CustomImage = styled(Image)`
@@ -9,13 +9,13 @@ const CustomImage = styled(Image)`
 `;
 
 export const Header: FC = () => {
-    return (
-        <header>
-            <Grid container justifyContent="center">
-                <Grid item xs={12} md={3}>
-                    <CustomImage src={logo} alt="Logo"/>
-                </Grid>
-            </Grid>
-        </header>
-    );
+  return (
+    <header>
+      <Grid container justifyContent="center">
+        <Grid item xs={12} md={3}>
+          <CustomImage src={logo} alt="Logo" />
+        </Grid>
+      </Grid>
+    </header>
+  );
 };
