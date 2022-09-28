@@ -19,8 +19,8 @@ export const CharactersList:FC<ICharacterList> = ({ data }) => {
     justifyContent="flex-start"
     sx={{ width: "1500px", margin: "0 auto", paddingTop: 5 }}
 >
-    {data?.map((item) => (
-        <CharacterCard key={item.id} item={item} />
+    {data?.map((character) => (
+        <CharacterCard key={character.id} character={character} />
     ))}
     </Grid>
 );

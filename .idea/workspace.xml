@@ -2,24 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="413042aa-103a-44e8-9a8b-31cd16e01076" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/components/CharacterCard.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/CharacterList.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Header.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/NotResults.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/SearchForm.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/constants.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graphql/config.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/api/getCharacterByFilter.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/createPalette.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/theme.config.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/types/Character.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/SearchForm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/types/FormikValues.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/api/hello.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/CharacterCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/CharacterCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/CharacterList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/CharactersList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Header.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/SearchForm.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services.ts" beforeDir="false" afterPath="$PROJECT_DIR$/services.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/types/Character.ts" beforeDir="false" afterPath="$PROJECT_DIR$/types/Character.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +45,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/user/Projects/rick-morty-typescript",
+    "last_opened_file_path": "/home/user/Projects/rick-morty-typescript/public",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
@@ -59,6 +54,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -68,7 +68,8 @@
       <option name="presentableId" value="Default" />
       <updated>1664284700851</updated>
       <workItem from="1664284701957" duration="965000" />
-      <workItem from="1664285750604" duration="5182000" />
+      <workItem from="1664285750604" duration="5287000" />
+      <workItem from="1664348314175" duration="5688000" />
     </task>
     <servers />
   </component>

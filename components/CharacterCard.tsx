@@ -3,7 +3,11 @@ import {Grid, Typography} from "@mui/material";
 import Image from "next/image";
 import {ICharacter} from "../types/Character";
 
-export const CharacterCard: FC<ICharacter> = ({item}) => {
+interface ICharacterCard{
+    character:ICharacter
+}
+
+export const CharacterCard: FC<ICharacterCard> = ({character}) => {
     return (
         <Grid
             container
@@ -22,22 +26,22 @@ export const CharacterCard: FC<ICharacter> = ({item}) => {
             <Image
                 width={150}
                 height={150}
-                src={item.image}
-                alt={item.name}
+                src={character.image}
+                alt={character.name}
             />
             <Typography sx={{width: "100%", textAlign: "center"}}>
-                {item.name}
+                {character.name}
             </Typography>
             <Grid container justifyContent="space-between">
-                <p>Status: {item.status}</p>
-                <p>Species: {item.species}</p>
+                <p>Status: {character.status}</p>
+                <p>Species: {character.species}</p>
             </Grid>
             <Grid container justifyContent="space-between">
-                <p>Type: {item.type}</p>
-                <p>Gender: {item.gender}</p>
+                <p>Type: {character.type}</p>
+                <p>Gender: {character.gender}</p>
             </Grid>
             <Grid container justifyContent="space-between">
-                <p>Location: {item.location.name}</p>
+                <p>Location: {character.location.name}</p>
             </Grid>
         </Grid>
     );

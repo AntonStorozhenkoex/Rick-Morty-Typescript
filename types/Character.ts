@@ -1,5 +1,4 @@
 export interface ICharacter{
-    item: {
         id:string,
         name:string,
         image:string,
@@ -14,5 +13,4 @@ export interface ICharacter{
         id:string,
             name:string
     }
-}
 }
