@@ -1,7 +1,7 @@
 import React, { FC } from "react";
 import { Typography } from "@mui/material";
 
-export const NotResults: FC = () => {
+export const NotResult: FC = () => {
   return (
     <Typography
       sx={{

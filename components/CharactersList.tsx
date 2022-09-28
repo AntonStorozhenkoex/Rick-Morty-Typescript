@@ -1,7 +1,7 @@
 import React, { FC } from "react";
 import { CharacterCard } from "./CharacterCard";
 import { Grid } from "@mui/material";
-import { NotResults } from "./NotResults";
+import { NotResult } from "./NotResult";
 import { ICharacter } from "../types/Character";
 
 interface ICharacterList {
@@ -10,7 +10,7 @@ interface ICharacterList {
 
 export const CharactersList: FC<ICharacterList> = ({ data }) => {
   if (data?.length === 0) {
-    return <NotResults />;
+    return <NotResult />;
   }
 
   return (

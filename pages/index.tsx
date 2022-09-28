@@ -9,7 +9,7 @@ import { Header } from "../components/Header";
 import { SearchForm } from "../components/SearchForm";
 import { CharactersList } from "../components/CharactersList";
 import { Formik, Form } from "formik";
-import { ICharacter } from "../types/Character";
+import { ICharacter } from "../types/types";
 
 export const getServerSideProps: GetServerSideProps = async (context) => {
   const { status, gender, type, species } = context.query;
